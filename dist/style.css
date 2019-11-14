@@ -1,0 +1,64 @@
+body {
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.section {
+    min-height: 25vh;
+}
+
+header {
+    padding: 1rem;
+}
+
+img {
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+li {
+    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    list-style: none;
+    transition: transform .5s, box-shadow .5s;
+}
+
+li:hover {
+    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.15);
+    transform: scale(1.01);
+}
+
+p {
+    font-weight: 500;
+    line-height: 2;
+    background-color: #eeeeee;
+    padding: .5rem 1rem;
+}
+
+#map {
+    min-height: 80vh;
+    width: 100%;
+}
+
+.marker {
+    background-image: url('https://docs.mapbox.com/help/demos/custom-markers-gl-js/mapbox-icon.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.mapboxgl-map {
+    overflow: hidden;
+}
+
+.button {
+    margin: 1rem 0 .2rem;
+}

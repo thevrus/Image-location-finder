@@ -1,0 +1,24 @@
+{
+  "author": "Vadym Rusin",
+  "name": "bepolandtask",
+  "version": "1.0.0",
+  "description": "EXIF photo checker",
+  "main": "main.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-proposal-class-properties": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "exif-js": "^2.3.0",
+    "mapbox-gl": "^1.5.0"
+  }
+}
